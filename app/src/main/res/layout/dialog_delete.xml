@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/delete_sheet">
+
+    <View
+        android:layout_width="130dp"
+        android:layout_height="5dp"
+        android:background="#A8A8A8"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Are you sure You want to delete \n this note"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textFontWeight="600"
+        android:fontFamily="sans-serif-light"
+        />
+    <TextView
+        android:id="@+id/dialog_No"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No"
+        android:gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:background="@drawable/no_btn"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:id="@+id/dialog_Yes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yes"
+        android:gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/yes_btn"
+        android:textSize="18sp"
+        />
+
+
+</LinearLayout>
