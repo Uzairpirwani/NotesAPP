@@ -13,7 +13,7 @@ import com.example.notes.R
 import com.example.notes.viewmodel.NotesViewModel
 import com.example.notes.databinding.FragmentCreateNoteBinding
 import com.example.notes.model.NotesColor
-import hideKeyboard
+import com.example.utils.hideKeyboard
 
 class CreateNoteFragment : Fragment() {
     private lateinit var binding: FragmentCreateNoteBinding

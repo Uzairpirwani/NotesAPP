@@ -15,7 +15,7 @@ import com.example.notes.viewmodel.NotesViewModel
 import com.example.notes.databinding.FragmentEditNoteBinding
 import com.example.notes.model.NotesColor
 import com.google.android.material.bottomsheet.BottomSheetDialog
-import hideKeyboard
+import com.example.utils.hideKeyboard
 
 
 class EditNoteFragment : Fragment() {
